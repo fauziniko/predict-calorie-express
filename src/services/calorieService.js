@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const backendUrl = 'http://your-backend-url';
+const backendUrl = 'https://cc-workspace-586910673966.asia-southeast2.run.app';
 
 async function getWeeklyCalories(username) {
   const apiUrl = `${backendUrl}/api/dashboard/${username}/weekly-calories`;
