@@ -2,7 +2,7 @@ const express = require('express');
 const caloriePredictionRoute = require('./routes/caloriePrediction');
 
 const app = express();
-const port = 8080;
+const port = 3000;
 
 app.use(express.json());
 app.use(caloriePredictionRoute);
